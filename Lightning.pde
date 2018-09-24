@@ -1,4 +1,4 @@
-int startY = 50;
+int startY = 0;
 int startX = 0;
 int endX = 0;
 int endY = 0;
@@ -9,7 +9,7 @@ void setup()
   strokeWeight(2);
 }
 void mousePressed(){
-  startY = 50;
+  startY = 0;
   startX = 0;
   endX = 0;
   endY = 0;
